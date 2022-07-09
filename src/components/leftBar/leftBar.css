@@ -1,0 +1,69 @@
+.leftBar{
+    height: 100vh;
+    width: 20%;
+    background: #451E7B;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftBar input{
+    width: 100%;
+    height: 40px;
+    background: none;
+    color: white;
+    border: none;
+}
+.p-input-icon-left > i:first-of-type, .p-input-icon-left > svg:first-of-type, .p-input-icon-left > .p-input-prefix{
+    color: white;
+}
+.leftBar input:focus{
+    border: none;
+}
+
+.place{
+    margin-bottom: 100px;
+}
+img{
+    width: 200px;
+}
+.tempNow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.timeNow{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 200px;
+}
+
+.infoTemp{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    color:white;
+    font-weight: 600;
+}
+
+.infoTemp img {
+    width: 60px;
+}
+.infoTemp span{
+    margin-left: 20px;
+}
+
+.location{
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}

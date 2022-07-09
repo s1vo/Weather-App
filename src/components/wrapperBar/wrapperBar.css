@@ -1,0 +1,24 @@
+.wrapper{
+    padding: 20px;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    overflow-y: hidden;
+}
+.headerWrap{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.bold{
+    font-weight: bold;
+    color: #2E1452;
+}
+.slider{
+    display: block;
+    width: 100%;
+    
+}
+.swipeItems{
+    padding: 10px;
+}
